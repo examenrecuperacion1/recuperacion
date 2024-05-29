@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "citas",
+    "collectionId": "d569845c-c0c8-445e-bf44-f9a0d768d739",
+    "dateExported": "2024-05-29T12:50:50.647Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f6ea7fcc-5e32-4f91-ad22-6efef062077e",
+            "colId": "d569845c-c0c8-445e-bf44-f9a0d768d739",
+            "containerId": "",
+            "name": "mostrarcita",
+            "url": "http://localhost:3000/api/mostracita/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-23T13:22:27.283Z",
+            "modified": "2024-05-29T12:44:35.067Z",
+            "headers": []
+        },
+        {
+            "_id": "63dba2b6-4e77-4a29-8c11-b51e338b3c59",
+            "colId": "d569845c-c0c8-445e-bf44-f9a0d768d739",
+            "containerId": "",
+            "name": "listarcita",
+            "url": "http://localhost:3000/api/listarcita",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-23T13:22:35.434Z",
+            "modified": "2024-05-29T12:45:30.713Z",
+            "headers": []
+        },
+        {
+            "_id": "464b1875-1dec-4802-a136-dda204bb0054",
+            "colId": "d569845c-c0c8-445e-bf44-f9a0d768d739",
+            "containerId": "",
+            "name": "crearcita",
+            "url": "http://localhost:3000/api/crearcita",
+            "method": "POST",
+            "sortNum": 22500,
+            "created": "2024-05-23T13:23:22.978Z",
+            "modified": "2024-05-29T12:49:08.780Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"paciente\": \"benito\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7985aef4-88ac-4d2d-90b8-e188c26a694b",
+            "colId": "d569845c-c0c8-445e-bf44-f9a0d768d739",
+            "containerId": "",
+            "name": "modificarcita",
+            "url": "http://localhost:3000/api/modificarcita",
+            "method": "PUT",
+            "sortNum": 25000,
+            "created": "2024-05-23T13:24:06.360Z",
+            "modified": "2024-05-29T12:48:44.817Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"1\",\n  \"paciente\": \"vasquez\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e99b9bd2-3c01-4b77-821d-e655e1575fdc",
+            "colId": "d569845c-c0c8-445e-bf44-f9a0d768d739",
+            "containerId": "",
+            "name": "eliminarcita",
+            "url": "http://localhost:3000/api/eliminarcita",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-23T13:24:19.919Z",
+            "modified": "2024-05-29T12:49:53.486Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 18\n  \n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "yR3Hp79a_8jH-q4AmI_uWOtXzsdGlhT8kgdLysBei3AntdLA8C6t2TRYTgLz4uvbNlCPAgoa5rF2ZSgbQDnt6w"
+}
